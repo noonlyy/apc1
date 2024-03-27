@@ -5,8 +5,14 @@
 #include <stdio.h>
 
 int main() {
-  int base = 10;
-  int altura = 2;
+  int base;
+  int altura;
+
+  printf("Entre com o numero da base: ");
+  int deu_certo = scanf("%i", &base);
+
+  printf("Entre com o numero da altura: ");
+  deu_certo = scanf("%i", &altura);
 
   int area = base * altura / 2;
   printf("A área do triângulo é: %i\n", area);
