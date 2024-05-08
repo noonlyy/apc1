@@ -1,11 +1,12 @@
 /*
-9. Faça um programa em C que converta uma idade expressa em anos, meses e dias para um valor em dias. Considere um ano com 365 dias e um mês com 30 dias.
+9. Faça um programa em C que converta uma idade expressa em anos, meses e dias
+para um valor em dias. Considere um ano com 365 dias e um mês com 30 dias.
 */
 
 #include <stdio.h>
 
-int main(){
-  
+int main() {
+
   int ano = 365;
   int mes = 30;
   int dia = 1;
@@ -27,6 +28,6 @@ int main(){
 
   printf("A sua idade em dias é: %i", idade_em_dias);
   deu_certo = scanf("%i", &idade_em_dias);
-  
+
   return 0;
 }

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
- int main() {
+int main() {
   printf("\x1b[32m----------------------------------\n");
   printf("        N O T A   L E G A L       \n");
   printf("----------------------------------\x1b[0m\n");
@@ -21,4 +21,4 @@
   printf("TOTAL......... : %3i %10.2f\n", total_quantidade, total_valor);
 
   return 0;
- }
+}

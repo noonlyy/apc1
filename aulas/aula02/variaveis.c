@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-  int numero; // numero inteiro
+  int numero;    // numero inteiro
   char caracter; // caracteres
-  int a; 
-  int x; 
-  float nome_composto; // decimal 
+  int a;
+  int x;
+  float nome_composto; // decimal
 
   numero = 10;
 

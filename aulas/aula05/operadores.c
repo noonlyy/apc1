@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include <math.h>
+#include <stdio.h>
 
 int main() {
   int numero1;
@@ -30,16 +30,16 @@ int main() {
   resultado = numero1 % numero2;
   printf("O resto da divisão dos numeros eh %i\n", resultado);
 
-//  numero1 = numero1 + 1;
-//  numero1++;
-//  ++numero1;
+  //  numero1 = numero1 + 1;
+  //  numero1++;
+  //  ++numero1;
 
   printf("O incremento do numero1 eh %i\n", numero1++);
   printf("O incremento do numero1 eh %i\n", ++numero1);
 
-// numero1 = numero1 - 1;
-// numero1--;
-// --numero1;  
+  // numero1 = numero1 - 1;
+  // numero1--;
+  // --numero1;
 
   printf("O decremento do numero1 eh %i\n", numero1--);
   printf("O decremento do numero1 eh %i\n", --numero1);

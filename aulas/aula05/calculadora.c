@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include <math.h>
+#include <stdio.h>
 
 int main() {
   int numero1;
@@ -13,10 +13,10 @@ int main() {
 
   int soma = numero1 + numero2;
   printf("A soma dos numeros é %i\n", soma);
-  
+
   int subtracao = numero1 - numero2;
   printf("A subtração dos numeros é %i\n", subtracao);
-  
+
   int multiplicacao = numero1 * numero2;
   printf("A multiplicação dos numeros é %i\n", multiplicacao);
 
@@ -26,27 +26,27 @@ int main() {
   int resto = numero1 % numero2;
   printf("O resto da divisão dos numeros é %i\n", resto);
 
-  //numero1 = numero1 + 1;
-  //incremento
-  printf("O incremento do primeiro numero é %i\n", numero1++); 
+  // numero1 = numero1 + 1;
+  // incremento
+  printf("O incremento do primeiro numero é %i\n", numero1++);
   printf("O incremento do primeiro numero é %i\n", ++numero1);
 
   // numero 1 = numero1 - 1;
-  //decremento
+  // decremento
   printf("O decremento do primeiro numero é %i\n", numero1--);
   printf("O decremento do primeiro numero é %i\n", --numero1);
 
   double raiz_quadrada = sqrt(numero1);
   printf("A raiz quadrada do primeiro numero é %f\n", raiz_quadrada);
 
-  double potencia = pow(numero1, 4); //numero1 elevado a 4	
+  double potencia = pow(numero1, 4); // numero1 elevado a 4
   printf("O numero elevado a 4 é %f\n", potencia);
 
-  double logaritimo2 = log2(numero1); //log na base 2 "log2" na base 10 "log"
+  double logaritimo2 = log2(numero1); // log na base 2 "log2" na base 10 "log"
   printf("O logaritimo2 do primeiro numero na base 2 é %f\n", logaritimo2);
 
   const double PI = 3.1416;
-  double sen = sin(numero1 * PI / 180); //angulo em radiano * PI / 180
+  double sen = sin(numero1 * PI / 180); // angulo em radiano * PI / 180
   printf("O seno do primeiro numero é %f\n", sen);
 
   return 0;

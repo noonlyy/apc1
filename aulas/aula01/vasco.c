@@ -5,7 +5,7 @@ int main() {
   float raio = 0.0;
 
   printf("Informe o valor do raio da pizza: ");
-  scanf( "%f", &raio );
+  scanf("%f", &raio);
 
   float area_da_pizza = pi * raio * raio;
 

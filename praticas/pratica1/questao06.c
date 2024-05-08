@@ -1,11 +1,12 @@
 /*
-6. Faça um programa em C que calcule as raízes de uma equação do 2° grau através da fórmula de Bhaskara (-b +/- raiz_quadrada(b² - 4ac)/2a).
+6. Faça um programa em C que calcule as raízes de uma equação do 2° grau através
+da fórmula de Bhaskara (-b +/- raiz_quadrada(b² - 4ac)/2a).
 */
 
-#include <stdio.h>
 #include <math.h>
+#include <stdio.h>
 
-int main(){
+int main() {
   int a;
   int b;
   int c;
@@ -29,9 +30,9 @@ int main(){
 
   printf("O valor de x1 é: %i", x1);
   deu_certo = scanf("%i", &x1);
-  
+
   printf("O valor de x2 é: %i", x2);
   deu_certo = scanf("%i", &x2);
-  
+
   return 0;
 }

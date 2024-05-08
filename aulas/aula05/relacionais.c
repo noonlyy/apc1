@@ -23,11 +23,10 @@ int main() {
   printf("O primero numero é menor? %i\n", eh_menor);
 
   int eh_maior_igual = numero1 >= numero2;
-  printf("O primero numero é maior ou igual? %i\n", eh_maior_igual);		
+  printf("O primero numero é maior ou igual? %i\n", eh_maior_igual);
 
   int eh_menor_igual = numero1 <= numero2;
   printf("O primero numero é menor ou igual? %i\n", eh_menor_igual);
-
 
   return 0;
 }
